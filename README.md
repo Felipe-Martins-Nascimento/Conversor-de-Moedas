@@ -1,16 +1,21 @@
-# ola_mundo
+# Conversor de Moedas - Flutter
 
-A new Flutter project.
+Este é um projeto simples e funcional de um **Conversor de Moedas**, desenvolvido com **Flutter** e **Dart**, com o objetivo de consolidar conhecimentos fundamentais da tecnologia no desenvolvimento mobile!
 
-## Getting Started
+## Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+O Conversor de Moedas permite ao usuário converter valores entre diferentes moedas de forma prática. O app apresenta uma interface tranquila, validando entradas e oferecendo uma boa experiência de uso.
 
-A few resources to get you started if this is your first Flutter project:
+> Projeto desenvolvido como parte do meu aprendizado em Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Funcionalidades e Tecnologias
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Interface moderna** com Flutter utilizando StatelessWidget e StatefulWidget
+- Conversão entre moedas (como Real, Dólar, Euro, etc.)
+- **Validação de campos vazios**
+- Uso de **TextEditingController** para capturar e manipular texto dos campos
+- Customização com **cores, tema escuro (dark theme)** e TextTheme
+- **Componentização** dos widgets para manter o código limpo e reutilizável
+- Organização da lógica em uma **classe Controller**
+- Lógica de conversão com foco em clareza e manutenção
+- Responsivo e adaptado para telas de dispositivos móveis
